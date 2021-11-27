@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#e6e6fa"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About Tech Help BD"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#8BAFFA"
+            android:padding="10sp"
+
+            />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="215sp"
+                android:src="@drawable/cover" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tech Help BD is one of the best technology based knowledge sharing site in Bangladesh.\n\nWe have started our journey from a small tech related Facebook group Where we try to solve tech related problems of our group members free."
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:gravity="left"
+                android:paddingLeft="20sp"
+
+                />
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Visit Our Facebook Group"
+               android:layout_marginTop="10sp"
+               android:layout_marginBottom="20sp"
+               />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/experts"
+                android:padding="10sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="30"
+                android:padding="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:layout_weight="10"
+                    android:gravity="center"
+
+                    >
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/like_icon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Like Us On Facebook"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="50px"
+                        android:paddingLeft="50px"
+
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/subscribe_icon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:layout_weight="10"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/share_icon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Share with Friends"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="50px"
+                        android:paddingLeft="50px"
+
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
